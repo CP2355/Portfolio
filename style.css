@@ -23,8 +23,14 @@ p {
   font-weight: normal;
 }
 
-.hero {
+.project {
   background: black;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero {
+  background: url(images/sunflower.jpg);
   text-align: center;
   padding: 160px 20px;
 }
