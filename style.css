@@ -22,7 +22,7 @@ p {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 60px;
 }
 
 h2 {
@@ -37,7 +37,16 @@ p {
   font-weight: normal;
 }
 
-.project {
+ul {
+  font-size: 16px;
+  text-align: center;
+  padding: 18px;
+}
+
+.project,
+.about,
+.gallery,
+.contact {
   background: black;
   text-align: center;
   padding: 160px 20px;
@@ -47,6 +56,14 @@ p {
   background: black;
   text-align: center;
   padding: 160px 20px;
+}
+
+.email {
+  padding: 18px;
+}
+
+.learn p {
+  font-size: 20px;
 }
 
 .hero p {
