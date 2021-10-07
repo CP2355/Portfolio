@@ -1,11 +1,11 @@
-@media (max-width: 576px) {
-  img {
+@media (min-width: 576px) {
+  h3 {
     display: none;
   }
 }
 
-@media (min-width: 800px) {
-  h3 {
+@media (max-width: 576px) {
+  img {
     display: none;
   }
 }
@@ -32,12 +32,16 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 40px;
+}
+
 p {
   font-family: "Roboto";
   font-weight: normal;
 }
 
-ul {
+.icons {
   font-size: 16px;
   text-align: center;
   padding: 18px;
@@ -87,4 +91,37 @@ ul {
   color: black;
   line-height: 27px;
   padding: 18px 30px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+nav {
+  padding: 20px 0;
+  background: black;
+}
+
+nav ul {
+  padding: auto;
+  margin: auto;
+}
+
+nav li {
+  display: inline-flex;
+  list-style: none;
+  line-height: 42px;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgb(236, 114, 181);
 }
