@@ -45,6 +45,7 @@ p {
   font-size: 16px;
   text-align: center;
   padding: 18px;
+  color: rgb(236, 114, 181);
 }
 
 .project,
@@ -66,8 +67,10 @@ p {
   padding: 18px;
 }
 
-.learn p {
+.email-link {
+  text-decoration: none;
   font-size: 20px;
+  color: white;
 }
 
 .hero p {
@@ -121,6 +124,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+.email-link:hover,
 nav a:hover,
 nav li.active a {
   color: rgb(236, 114, 181);
