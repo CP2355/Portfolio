@@ -22,67 +22,60 @@
     <link rel="stylesheet" href="style.css" />
     <title>Homepage</title>
   </head>
-  <>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Qiana Martin </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me</a>
-            </li>
-          </ul>
-        </div>
+  <body>
+    <nav class="d-flex justify-content-between">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="/index.html"> Home</a></li>
+          <li>
+            <a href="/about.html"> About</a></li>
+          <li>
+            <a href="/gallery.html"> Gallery</a></li>
+          <li class="active">
+            <a href="/"> Contact</a></li>
+        </ul>
       </div>
     </nav>
+    </div>
     <div class="contact">
-      <h1>Get In Touch With Me!</h1>
+      <h1 class="mb-5">Get In Touch With Me!</h1>
+      <img
+        src="images/skullcandy.jpg"
+        width="300px"
+        class="img-fluid rounded"
+        alt="skullcandy"
+      />
       <br />
       <div class="email">
         <h2>Email Me</h2>
-      <a href="mailto:MsQiana@QFaces.com" class="email-link" title="Email address for Qiana Martin">
-        MsQiana@QFaces.com
-      </a>
-    </div>
+        <a
+          href="mailto:MsQiana@QFaces.com"
+          class="email-link"
+          title="Email address for Qiana Martin"
+        >
+          MsQiana@QFaces.com
+        </a>
+      </div>
       <h2>Find Me on Social Media @QFaces</h2>
       <img
         src="images/logo.jpg"
         width="400px"
         class="img-fluid rounded"
-        alt="logo"
+        alt="picture"
         class="logo"
       />
-      <ul>
-        <div class="d-flex justify-content-evenly">
-          <div><i class="fab fa-facebook"> Facebook</i></div>
-          <div><i class="fab fa-twitter"></i> Twitter</div>
-          <div><i class="fab fa-instagram"></i> Instagram</div>
-        </div>
-      </ul>
-      <div>
+      <footer>
+        <div class="d-flex justify-content-evenly mt-5">
+          <img src="images/logo.jpg" class="logo" alt="" />
       </div>
+        <div class="icons">
+        <div class="d-flex justify-content-evenly mb-5">
+        <i class="fab fa-facebook"> FACEBOOK</i>
+        <i class="fab fa-twitter"> TWITTER</i>
+        <i class="fab fa-instagram"> INSTAGRAM</i>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
