@@ -10,15 +10,15 @@
   }
 }
 
+@media (max-width: 675px) {
+  .primary {
+    width: 200px;
+  }
+}
+
 :root {
   --primary-color: rgb(236, 114, 181);
   --secondary-color: white;
-}
-
-.primary {
-  border: 5px solid;
-  border-radius: 50px;
-  border-color: var(--secondary-color);
 }
 
 h1,
@@ -33,7 +33,7 @@ p {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2 {
